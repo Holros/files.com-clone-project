@@ -29,8 +29,7 @@ function App() {
           </Routes>
           <br/>
           <br/>
-          <br/>
-          <p style={{margin:"0 20px", fontWeight:"normal"}}>This is a project I built to showcase my React skills, do well to click on <span style={{color:"green", fontWeight:"bold"}}>"Forgot password?"</span> and <span style={{color:"green", fontWeight:"bold"}}>"Don't have an account? Sign Up"</span> to see other aspects of this project, it's also worth noting that this project has an <span style={{color:"green", fontWeight:"bold"}}>Error Page</span>. Ensure to input data in the form and submit to see how inputted data was handled. <br/>
+          <p style={{margin:"20px", fontWeight:"normal"}}>This is a project I built to showcase my React skills, do well to click on <span style={{color:"green", fontWeight:"bold"}}>"Forgot password?"</span> and <span style={{color:"green", fontWeight:"bold"}}>"Don't have an account? Sign Up"</span> to see other aspects of this project, it's also worth noting that this project has an <span style={{color:"green", fontWeight:"bold"}}>Error Page</span>. Ensure to input data in the form and submit to see how inputted data was handled. <br/>
           Thanks.
           </p>  
           
