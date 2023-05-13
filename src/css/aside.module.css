@@ -1,0 +1,14 @@
+.aside{
+    flex-basis: 42%;
+    background-image: url("/src/img/asideImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+@media only screen and (max-width: 769px) {
+    .aside{
+        display: none;
+    }
+}

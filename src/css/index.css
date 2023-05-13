@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico:regular);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    tborder: 1px solid red;
+}
+a{
+    text-decoration: none;
+    color: rgb(22 58 63);
+}
+.enclosure{
+    display: flex;
+}
+.main{
+    flex-basis: 58%;
+    min-height: 100vh;
+    background-color: rgb(249 252 248);
+    color: rgb(22 58 63);
+    font-weight: 600;
+    font-family: poppins, sans-serif ;
+}
+.navbar h2{
+    padding: 15px 20px;
+    font-family: pacifico;
+    color: rgb(22 58 63);
+}
+.intro{
+    text-align: center;
+    padding: 10px;
+}
+.intro p{
+    margin: 8px 0;
+}
+.form{
+    padding: 15px;
+    max-width: 500px;
+    margin: auto;
+}
+form{
+    width: 100%;
+    
+}
+.form input{
+    margin-bottom: 12px;
+    width: 100%;
+}
+.form button{
+    margin-bottom: 13px;
+    width: 100%;
+}
+.form input[type="text"], input[type="email"], .form input[type="password"], .form button{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(22, 58, 63,0.5);
+    outline: 0;
+}
+.form input[type="text"]:focus, .form input[type="password"]:focus, .form input[type="email"]:focus {
+    background-color: rgba(22, 58, 63, 0.1);
+}
+.form button{
+    background-color: rgba(22, 58, 63, 0.5);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0 ;
+}
+.special{
+    background-color: white !important;
+    color: rgb(22 58 63) !important;
+    border: 1px solid rgb(22, 58, 63,0.8) !important;
+}
+.special img{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+.bind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 769px) {
+    .main{
+        flex-basis: 100%;
+    }
+}
