@@ -30,6 +30,7 @@ function Modal({ data, show, setShow }) {
         <div style={{alignSelf:"flex-start"}}>
           {individualData}
         </div>
+        <br/>
         <button onClick={hideModal} style={{backgroundColor:"green",padding:"10px 20px",color:"white",border:"none",borderRadius:"8px", outline:"2px solid white", position:"absolute", bottom:"15px"}}>Close</button>
       </div>  
     </div>
